@@ -11,25 +11,25 @@
 You can install the package via npm:
 
 ```bash
-npm install @sagar/utility-components
+npm install sagar-utility-components
 ```
 
 Or via yarn:
 
 ```bash
-yarn add @sagar/utility-components
+yarn add sagar-utility-components
 ```
 
 Or via bun:
 
 ```bash
-bun add @sagar/utility-components
+bun add sagar-utility-components
 ```
 
 After installation, you can import the components in your React application as follows:
 
 ```jsx
-import { Each, Show } from "@sagar/utility-components";
+import { Each, Show } from "sagar-utility-components";
 ```
 
 ## Components
