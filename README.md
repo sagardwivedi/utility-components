@@ -57,12 +57,12 @@ The `Show` component is used for conditionally rendering its children based on a
 
 ```jsx
 <Show>
-  <Show.When isTrue={condition}>
+  <ShowWhen isTrue={condition}>
     <p>This is rendered when condition is true.</p>
-  </Show.When>
-  <Show.Else>
+  </ShowWhen>
+  <ShowElse>
     <p>This is rendered otherwise.</p>
-  </Show.Else>
+  </ShowElse>
 </Show>
 ```
 
@@ -70,17 +70,17 @@ The `Show` component is used for conditionally rendering its children based on a
 
 - `children` (`ReactNode`): ReactNode to be conditionally rendered.
 
-### Show.When
+### ShowWhen
 
-The `Show.When` component is used as a child of `Show` to render its children when a condition is true.
+The `ShowWhen` component is used as a child of `Show` to render its children when a condition is true.
 
 #### Usage
 
 ```jsx
 <Show>
-  <Show.When isTrue={condition}>
+  <ShowWhen isTrue={condition}>
     <p>This is rendered when condition is true.</p>
-  </Show.When>
+  </ShowWhen>
 </Show>
 ```
 
@@ -88,20 +88,20 @@ The `Show.When` component is used as a child of `Show` to render its children wh
 
 - `isTrue` (`boolean`): Condition to be evaluated.
 
-### Show.Else
+### ShowElse
 
-The `Show.Else` component is used as a child of `Show` to render its children or a specified render prop if provided.
+The `ShowElse` component is used as a child of `Show` to render its children or a specified render prop if provided.
 
 #### Usage
 
 ```jsx
 <Show>
-  <Show.When isTrue={condition}>
+  <ShowWhen isTrue={condition}>
     <p>This is rendered when condition is true.</p>
-  </Show.When>
-  <Show.Else>
+  </ShowWhen>
+  <ShowElse>
     <p>This is rendered otherwise.</p>
-  </Show.Else>
+  </ShowElse>
 </Show>
 ```
 
