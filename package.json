@@ -4,7 +4,7 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build": "bun run build.mjs",
     "prepublishOnly": "bun run build",
